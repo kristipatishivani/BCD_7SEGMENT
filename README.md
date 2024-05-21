@@ -1,11 +1,15 @@
 BCD_7SEGMENT
+
 Aim:
+
 To design and simulate BCD 7 Segment using vivado.
 
-Apparatus Required
+Apparatus Required:
+
 PC with vivado software.
 
-Procedure
+Procedure:
+
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -22,7 +26,8 @@ STEP:7 compare the output with truth table.
 
 ![image](https://github.com/kristipatishivani/BCD_7SEGMENT/assets/161432255/f44fd5b2-5ae0-4b3f-be05-552582d80b65)
 
-program
+program:
+```
 //Verilog module.
 module segment7(
      bcd,
@@ -53,11 +58,13 @@ module segment7(
         endcase
     end
 endmodule
+```
 
 output:
 
 ![image](https://github.com/kristipatishivani/BCD_7SEGMENT/assets/161432255/d3942ae3-2458-409f-974a-8bbd2ee4e432)
 
 Result:
+
 Thus the BCD 7 Segment is verified succcessfully.
 
